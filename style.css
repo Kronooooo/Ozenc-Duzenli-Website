@@ -34,13 +34,15 @@ header {
 
 #logo {
     font-family: "Big Shoulders Inline Display", sans-serif;
+    position: absolute;
     text-align: center;
     font-size: 75px;
     display: inline-block;
-    padding: 0 100px;
+    left: 36%;
 }
 
-.tab {
+.tab-left {
+    position: relative;
     font-family: "Big Shoulders Inline Display", sans-serif;
     text-align: center;
     font-size: 35px;
@@ -48,7 +50,22 @@ header {
     text-transform: uppercase;
     display: inline-block;
     height: 100%;
-    padding: 0 100px;
+    top: 1em;
+    margin: 0 5%;
+}
+
+.tab-right {
+    position: relative;
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    left: 30%;
+    height: 100%;
+    top: 1em;
+    margin: 0 5%;
 }
 
 a:link {
@@ -123,4 +140,5 @@ header .centered {
     height: 100%;
     padding: 2px;
     left: 92.5%;
+    top: 3em;
 }
