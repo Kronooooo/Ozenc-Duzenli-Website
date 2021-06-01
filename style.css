@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    z-index: 10;
+    z-index: 99999;
     position: fixed;
     width: 100%;
     clear: none;
@@ -187,4 +187,9 @@ header .centered {
     padding: 2px;
     left: 92.5%;
     top: 3em;
+}
+
+.sub-videos {
+    display: inline-block;
+    position: relative;
 }
