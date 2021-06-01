@@ -138,9 +138,15 @@ header li:hover {
 .container {
     position: relative;
     display: block;
-    margin-bottom: 5%;
     min-height: 100%;
     text-align: center;
+    font-size: 0;
+    margin-bottom: 1%;
+}
+
+.container > div {
+    font-size: 1rem;
+    display: inline-block;
 }
 
 .background {
@@ -149,13 +155,14 @@ header li:hover {
 }
 
 .sub-container img {
-    margin-top: 5%;
     float: left;
     margin-right: 15%;
 }
 
 .sub-container p {
-    padding-top: 5%;
+    padding: 1%;
+    background-color: rgba(0,0,0,0.7);
+    position:absolute;
     color: white;
     font-size: 125%;
     font-weight: bold;
@@ -163,7 +170,9 @@ header li:hover {
     left: 50%;
     margin: 0 auto;
     box-sizing: border-box;
-    margin-right: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .main-video {
