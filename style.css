@@ -51,6 +51,16 @@ header {
     left: 36%;
 }
 
+#overlay{
+    width:30%;
+    height: 65%;
+    position: relative;
+    left:0;
+    top:25%;
+    z-index: 999;
+    margin-left: 5%;
+    }
+
 .tab-left {
     position: relative;
     font-family: "Big Shoulders Inline Display", sans-serif;
@@ -116,53 +126,56 @@ header li:hover {
     color:pink;
 }
 
-#home {
-    box-sizing: border-box;
-    top: 25%;
-    width: 100%;
+.social-media {
+    display: inline-block;
+    position: relative;
     height: 100%;
-    position: absolute;
-    position: inline-block;
-    margin-top: 0;
-    margin-bottom: -4px;
-    padding-bottom: -4px;
-}
-
-#about {
-    box-sizing: border-box;
-    position: absolute;
-    position: inline-block;
-    margin: 0 auto;
-    top: 25%;
-    left: 50%;
-    margin-right: 5%;
-    background-color: #585858;
-    background-position: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-#overlay{
-    width:30%;
-    height: 65%;
-    position:absolute;
-    left:0;
-    top:25%;
-    z-index: 999;
-    margin-left: 5%;
-    }
-
-.background {
-    z-index: -10;
-    width: 100%;
-    top: 0%;
+    padding: 2px;
+    left: 92.5%;
+    top: 3em;
 }
 
 .container {
     position: relative;
+    display: block;
+    margin-bottom: 5%;
+    min-height: 100%;
     text-align: center;
-    color:black;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+}
+
+.sub-container img {
+    margin-top: 5%;
+    float: left;
+    margin-right: 15%;
+}
+
+.sub-container p {
+    padding-top: 5%;
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+    top: 25%;
+    left: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-right: 5%;
+}
+
+.main-video {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.sub-video {
+    position: relative;
+    margin: 0 auto;
+    display: inline;
 }
 
 .centered {
@@ -178,18 +191,4 @@ header .centered {
     top: 80px;
     left: 44.25%;
     font-size: 30px;
-}
-
-.social-media {
-    display: inline-block;
-    position: relative;
-    height: 100%;
-    padding: 2px;
-    left: 92.5%;
-    top: 3em;
-}
-
-.sub-videos {
-    display: inline-block;
-    position: relative;
 }
