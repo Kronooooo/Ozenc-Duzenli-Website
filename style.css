@@ -79,7 +79,7 @@ body {
     color: transparent;
     overflow: hidden;
     border: 0;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px); /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px;
     margin: -1px;
@@ -145,4 +145,13 @@ footer {
 
 #socials {
     text-align: center;
+}
+
+#gallery {
+    color: white;
+    text-align: center;
+    font-family: 'Big Shoulders Inline Display light';
+    font-weight: bold;
+    font-size: 150%;
+    margin: 10%;
 }
