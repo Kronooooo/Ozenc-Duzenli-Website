@@ -10,7 +10,8 @@ html {
 
 body {
     height: 100%;
-    background-color: #585858;
+    background-color: #287ca0;
+    font-size: calc(1em + 1vw);
 }
 
 
@@ -105,21 +106,28 @@ body {
 .sub-container p {
     padding: 1%;
     background-color: rgba(0,0,0,0.7);
-    position:absolute;
+    position: relative;
     color: white;
-    font-size: 150%;
-    font-weight: bold;
+    font-size: 2vw;
     font-family: "Big Shoulders Inline Display light";
     margin: 5%;
     box-sizing: border-box;
     -ms-overflow-style: none;
     scrollbar-width: none;
     overflow-y: scroll;
-    max-height: inherit;
+    max-height: 50vw;
 }
 
 .sub-container p::-webkit-scrollbar {
     display: none;
+}
+
+.sub-container img {
+    margin-right: 1vw;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
 }
 
 .main-video {
@@ -131,8 +139,8 @@ body {
 .video {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 25%;
+    width: 50%;
     height: 100%;
     border: 0;
 }
