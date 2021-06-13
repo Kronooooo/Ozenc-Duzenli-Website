@@ -132,10 +132,11 @@ body {
 }
 
 .sub-container img {
+    margin-left: 1vw;
     margin-right: 1vw;
     position: relative;
     float: left;
-    width: 50%;
+    width: 35%;
     height: auto;
 }
 
