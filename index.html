@@ -46,12 +46,14 @@
                 <iframe class="video" src="https://www.youtube.com/embed/smzeBCdM1JY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        <br>
 
         <div class="container">
             <div class="main-video">
                 <iframe class="video" src="https://www.youtube.com/embed/vHH9TwDX5k8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        <br>
 
         <div class="container">
             <div class="main-video">
@@ -62,7 +64,26 @@
         <div class="container">
             <a id="gallery-section" class="section">gallery</a>
             <div id="gallery">
-                <p>Gallery coming soon!</p>
+                <div class="column">
+                    <img src="./resources/gallery/01.png" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="./resources/gallery/02.png" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="./resources/gallery/03.png" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="./resources/gallery/04.png" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="./resources/gallery/05.png" onclick="changeImage(this);">
+                </div>
+            </div>
+
+            <div class="img-container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg" style="width:100%">
             </div>
         </div>
         

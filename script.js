@@ -6,3 +6,9 @@ function showLinks() {
         x.style.display = "block";
     }
 }
+
+function changeImage(image) {
+    var expandImg = document.getElementById("expandedImg");
+    expandImg.src = image.src;
+    expandImg.parentElement.style.display = "block";
+}
