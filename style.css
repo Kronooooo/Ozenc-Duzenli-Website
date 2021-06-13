@@ -205,3 +205,8 @@ footer {
     font-size: 35px;
     cursor: pointer;
 }
+
+#expandedImg {
+    margin: 5vw;
+    max-width: 90vw;
+}
