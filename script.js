@@ -12,3 +12,4 @@ function changeImage(image) {
     expandImg.src = image.src;
     expandImg.parentElement.style.display = "block";
 }
+
